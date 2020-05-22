@@ -16,7 +16,7 @@ let hiddenDiv = document.querySelector(`.hidden-div-calculate`)
 let testo = document.querySelector(`.test`)
 let desc = document.querySelectorAll(`.description`)
 let calc = document.querySelector(`.calcul`)
-let toggled = true
+let toggled = false
 testo.addEventListener(`click`, testFunc)
 function testFunc() {
 	if (!toggled) {

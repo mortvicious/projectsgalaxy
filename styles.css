@@ -18,8 +18,10 @@ body {
   max-width: 20rem;
   max-height: 20rem;
   min-width: 20rem;
+  width: 0;
   min-height: 20rem;
-  background-color: #527b8b79;
+  background-color: black;
+  color: black;
   border-top-right-radius: 10rem;
   border-bottom-right-radius: 10rem;
   border-top-left-radius: 5px;
@@ -46,10 +48,16 @@ body {
 }
 
 .hidden-div-calculate .description {
-  color: rgba(227, 254, 255, 0.562);
+  color: black;
   font-size: 14px;
   cursor: default;
   z-index: -1;
+}
+
+.calcul {
+  color: rgba(167, 252, 255, 0.486);
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
 }
 
 .star-container {
